@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Monitoreo de Consumo Eléctrico</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="#" class="logo">Prototipo de pagina Web </a>
+    <ul class="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#historial">Historial de Consumo</a></li>
+      <li><a href="#consejos">Consejos de Ahorro</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="content">
+  <section id="inicio" class="inicio-section">
+    <div class="container">
+      <div class="contenido">
+        <h1 class="titulo">Sistema de Monitoreo de Consumo Eléctrico</h1>
+        <p class="descripcion">
+          ¡Bienvenido! Nuestro innovador sistema de monitoreo eléctrico, diseñado para ofrecer una visión integral y en tiempo real del consumo de energía eléctrica. Con nuestra plataforma web, los usuarios pueden supervisar y analizar datos clave, como la demanda de energía, el rendimiento de los equipos y las tendencias de consumo. Nuestra solución proporciona información precisa y detallada, permitiendo tomar decisiones informadas para optimizar la eficiencia energética y reducir costos operativos.
+        </p>
+        <h1 class ="subtitulo">¿Quiénes somos?</h1>
+        <p class="descripcion">
+          Somos alumnos pertenecientes a la Universidad Autónoma Metropolitana de la unidad de Lerma, adscritos a la división de ciencias básicas e ingeniería (CBI) y al departamento de sistemas de la información y comunicaciones, e inscritos en el plan de Licenciatura en Ingeniería en Computación y Telecomunicaciones. Estamos cursando nuestros últimos trimestres de actividad académica y, conforme al programa de estudios, debemos desarrollar un proyecto terminal conformado en dos partes con el propósito de plasmar los conocimientos adquiridos durante nuestra trayectoria académica.
+        </p>
+        <h1 class="subtitulo">¿Qué es?</h1>
+        <p class="descripcion">
+          Nuestro Sistema de Monitoreo de Consumo Eléctrico con IoT es una solución innovadora diseñada para abordar la falta de conciencia energética en hogares mexicanos. Utilizando tecnología de Internet de las Cosas (IoT), permite monitorear el consumo de corriente en tiempo real y promover prácticas conscientes en el uso de la electricidad.
+        </p>
+        <h1 class="subtitulo">¿Por qué es importante?</h1>
+        <p class="descripcion">
+          En hogares de bajos recursos en México, los altos costos de suministro eléctrico y la falta de eficiencia en el consumo eléctrico representan desafíos significativos. Nuestro sistema ayuda a reducir costos, promover la eficiencia energética y contribuir a la conservación del medio ambiente.
+        </p>
+        <h1 class="subtitulo">Características Principales:</h1>
+        <ul class="caracteristicas">
+          <li>Monitoreo en Tiempo Real: Visualiza el consumo de corriente de tus dispositivos electrodomésticos desde cualquier lugar.</li>
+          <li>Tecnología Avanzada: Utiliza sensores de corriente, microcontroladores y tecnologías en la nube para un monitoreo preciso y eficiente.</li>
+          <li>Fácil de Usar: Interfaz intuitiva y accesible para todos los usuarios, sin importar su nivel de experiencia tecnológica.</li>
+        </ul>
+        <h1 class="subtitulo">¿Cómo Funciona?</h1>
+        <ol class="funcionamiento">
+          <li>Instalación: Nuestro equipo especializado instalará los sensores de corriente y configurará el sistema en tu hogar.</li>
+          <li>Monitoreo: Accede a la plataforma en línea para ver el consumo de corriente de tus dispositivos en tiempo real.</li>
+          <li>Optimización: Identifica patrones de consumo y toma medidas para reducir costos y mejorar la eficiencia energética.</li>
+        </ol>
+        <h1 class="subtitulo">Beneficios:</h1>
+        <ul class="beneficios">
+          <li>Reducción de Costos: Controla tu consumo eléctrico y reduce tu factura mensual.</li>
+          <li>Conciencia Energética: Promueve prácticas conscientes en el uso de la electricidad.</li>
+          <li>Impacto Ambiental: Contribuye a la conservación del medio ambiente al reducir la demanda de energía.</li>
+        </ul>
+        <h1 class="subtitulo">¿Por qué elegirnos?</h1>
+        <p class="descripcion">
+          Experiencia: Con años de experiencia en el desarrollo de soluciones tecnológicas, garantizamos resultados de calidad.<br>
+          Compromiso: Nos comprometemos a brindar un servicio personalizado y satisfactorio a todos nuestros clientes.<br>
+          Innovación: Estamos siempre buscando nuevas formas de mejorar y optimizar nuestros productos para satisfacer las necesidades cambiantes del mercado.
+        </p>
+      </div>
+    </div>
+    <!-- Pie de página -->
+    <div class="footer">
+      <img src="Logo_CBI.svg" alt="Logo CBI" class="footer-image">
+      <img src="Logo_de_la_UAM.svg" alt="Logo UAML" class="footer-image">
+      <img src="logo_ICT.svg" alt="Logo ICT" class="footer-image">
+    </div>
+  </section>
+  
+  <section id="historial" class="historial-section section-with-footer"> <!-- Añadir clase 'section-with-footer' -->
+    <div class="container">
+        <div class="contenido">
+            <h1 class="titulo">Historial de Consumo</h1>
+            <div class="login-form">
+                <h2>Iniciar sesión</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="usuario">Usuario:</label>
+                        <input type="text" id="usuario" name="usuario" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contraseña">Contraseña:</label>
+                        <input type="password" id="contraseña" name="contraseña" required>
+                    </div>
+                    <button type="submit">Iniciar sesión</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="Logo_CBI.svg" alt="Imagen izquierda" class="footer-image">
+        <img src="Logo_de_la_UAM.svg" alt="Imagen centro" class="footer-image">
+        <img src="logo_ICT.svg" alt="Imagen derecha" class="footer-image">
+    </div>
+</section>
+
+  <section id="consejos" class="consejos-section">
+    <div class="container">
+      <div class="contenido">
+        <h1 class="titulo">Consejos para Ahorro Energético</h1>
+        <p class="descripcion">
+          Puedes seguir estos consejos para reducir el costo de tu factura bimestral de consumo electrico, ¡echale un ojo!
+        </p>
+        <!-- Primer consejo -->
+        <div class="consejo">
+          <h2 class="titulo-consejo">Consejo 1: Utiliza bombillas LED</h2>
+          <div class="cuerpo-consejo">
+            <p>
+              Reemplaza las bombillas incandescentes por bombillas LED, que consumen menos energía y duran mucho más.
+            </p>
+            <img src="bombilla_led.jpg" alt="Bombilla LED">
+          </div>
+        </div>
+        <!-- Segundo consejo -->
+        <div class="consejo">
+          <h2 class="titulo-consejo">Consejo 2: Apaga los aparatos electrónicos</h2>
+          <div class="cuerpo-consejo">
+            <p>
+              Apaga los aparatos electrónicos cuando no los estés utilizando, incluso en modo de espera siguen consumiendo energía.
+            </p>
+            <img src="apagar_aparatos.jpg" alt="Apagar aparatos electrónicos">
+          </div>
+        </div>
+        <!-- Tercer consejo -->
+        <div class="consejo">
+          <h2 class="titulo-consejo">Consejo 3: Aprovecha la luz natural</h2>
+          <div class="cuerpo-consejo">
+            <p>
+              Aprovecha al máximo la luz natural durante el día, abriendo cortinas y persianas para reducir el uso de iluminación artificial, asi como para integrar tecnologias funcionen con ella.
+            </p>
+            <img src="Luz_Natural.jpg" alt="Aprovechar luz natural">
+          </div>
+        </div>
+        <!-- Cuarto consejo -->
+        <div class="consejo">
+          <h2 class="titulo-consejo">Consejo 4: Mantemineto a Electronodomesticos</h2>
+          <div class="cuerpo-consejo">
+            <p>
+              Mantén limpios los filtros de aire de los electrodomésticos para asegurar un funcionamiento eficiente y menor consumo de energía.
+            </p>
+            <img src="Limpieza_Electrodomesticos.jpg" alt="Mantenimiento de electrodomésticos">
+          </div>
+        </div>
+        <!-- Quinto consejo -->
+        <div class="consejo">
+          <h2 class="titulo-consejo">Consejo 5: Integra tecnologia a tu hogar</h2>
+          <div class="cuerpo-consejo">
+            <p>
+              Integrar tecnologia para controlar el consumo de los aparatos electricos y electronicos sirve para reducir el costo de operacion de ellos.
+            </p>
+            <img src="Tecnologia_Hogar.jpg" alt="Programar termostato">
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Después del contenido de cada sección, agrega este código para el pie de página -->
+<div class="footer">
+  <img src="Logo_CBI.svg" alt="Imagen izquierda" class="footer-image">
+  <img src="Logo_de_la_UAM.svg" alt="Imagen centro" class="footer-image">
+  <img src="logo_ICT.svg" alt="Imagen derecha" class="footer-image">
+</div>
+  </section>
+
+  <div class="content">
+    <section id="contacto" class="contacto-section">
+      <div class="container">
+        <div class="formulario-contacto">
+          <h2>Contacto</h2>
+          <form action="bd.php" method="post">
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+      <!-- Pie de página -->
+      <div class="footer">
+        <!-- Aquí puedes dejar el código de las imágenes del pie de página -->
+      </div>
+    </section>
+  </div>
+  
+
+</div>
+
+<script>
+    // Obtenemos todos los enlaces de la barra de navegación
+    const navLinks = document.querySelectorAll('.nav-links li a');
+  
+    // Agregamos un evento click a cada enlace de la barra de navegación
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        // Ocultamos todas las secciones
+        document.querySelectorAll('.content section').forEach(section => {
+          section.style.display = 'none';
+        });
+  
+        // Obtenemos el ID de la sección correspondiente al enlace
+        const targetId = link.getAttribute('href').slice(1);
+  
+        // Mostramos la sección correspondiente
+        document.getElementById(targetId).style.display = 'block';
+      });
+    });
+  </script>
+  
+</body>
+</html>
